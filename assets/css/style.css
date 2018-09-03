@@ -1,0 +1,44 @@
+header {
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+}
+
+body { 
+    min-height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: url("../images/suzaku-castle.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1, h3, .questions {
+    color: white;
+}
+
+
+.img {
+    width: 260px;
+    height: 240px;
+    margin: 10px 10px 70px 10px;
+}
+
+/* #timer {
+    background-color: white;
+    align-content: center;
+    text-align: center;
+    z-index: 20;
+    padding-top: 10px;
+} */
+
+
+
+
+footer {
+    background-color: transparent;
+    height: 100px;
+    width: 100%;
+}
+

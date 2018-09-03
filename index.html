@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--link to css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+<!--link to javascript-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    
+    <title>Trivia Game</title>
+</head>
+
+<body>
+    <div id="header">
+        <img class="logo" src="assets/images/streetfighter-logo.png">
+        <h1>Character Trivia</h1>
+    </div>   
+        
+    <div id="startPage">        
+            <div id="timer"></div>
+    
+            <div id="startButton">
+                <button type="button" onclick="">START</button>
+            </div>
+    </div>
+
+    <div id="questionsContainer">     
+        <form name="quizform">
+        
+            <section class="questionBox" id="q1">
+                <img class="charImg" src="assets/images/ken.png">
+                <div class="questions" >
+                    <h3>1. Name the above character:</h3>
+            
+                    <input type="radio" name="q1" value="a">a. Ken<br>
+                    <input type="radio" name="q1" value="b">b. MBison<br>
+                    <input type="radio" name="q1" value="c">c. Dhalism<br>
+                    <input type="radio" name="q1" value="d">d. Ryu<br>
+                </div>
+            </section>
+
+            <section class="questionBox" id="q2">
+                <img class="charImg" src="assets/images/chunli.png">
+                <div class="questions" >
+                    <h3>2. Name the above character:</h3>
+            
+                    <input type="radio" name="q2" value="a">a. Ken<br>
+                    <input type="radio" name="q2" value="b">b. Cammy<br>
+                    <input type="radio" name="q2" value="c">c. Chun Li<br>
+                    <input type="radio" name="q2" value="d">d. Sakura<br>
+                </div>
+            </section>
+
+            <section class="questionBox" id="q3">
+                <img class="charImg" src="assets/images/mbison.png">
+                <div class="questions" >
+                    <h3>3. Name the above character:</h3>
+            
+                    <input type="radio" name="q3" value="a">a. Ken<br>
+                    <input type="radio" name="q3" value="b">b. MBison<br>
+                    <input type="radio" name="q3" value="c">c. Dhalism<br>
+                    <input type="radio" name="q3" value="d">d. Ryu<br>
+                </div>
+            </section>
+           
+            <section class="questionBox" id="q4">
+                <img class="charImg" src="assets/images/blanka.png">
+                <div class="questions" >
+                    <h3>4. Name the above character:</h3>
+            
+                    <input type="radio" name="q4" value="a">a. Ken<br>
+                    <input type="radio" name="q4" value="b">b. MBison<br>
+                    <input type="radio" name="q4" value="c">c. Blanka<br>
+                    <input type="radio" name="q4" value="d">d. Ryu<br>
+                </div>
+            </section>
+
+            <section class="questionBox" id="q5">
+                <img class="charImg" src="assets/images/cammy.png">
+                <div class="questions" >
+                    <h3>5. Name the above character:</h3>
+            
+                    <input type="radio" name="q5" value="a">a. Chun Li<br>
+                    <input type="radio" name="q5" value="b">b. MBison<br>
+                    <input type="radio" name="q5" value="c">c. Sakura<br>
+                    <input type="radio" name="q5" value="d">d. Cammy<br>
+                </div>
+            </section>
+        
+            <section class="questionBox" id="q6">
+                <img class="charImg" src="assets/images/Sakura.png">
+                <div class="questions" >
+                    <h3>6. Name the above character:</h3>
+            
+                    <input type="radio" name="q6" value="a">a. Cammy<br>
+                    <input type="radio" name="q6" value="b">b. Sakura<br>
+                    <input type="radio" name="q6" value="c">c. Blanka<br>
+                    <input type="radio" name="q6" value="d">d. Ken<br>
+                </div>
+            </section>
+
+            <section class="questionBox" id="q7">
+                <img class="charImg" src="assets/images/dhalsim.png">
+                <div class="questions" >
+                    <h3>7. Name the above character:</h3>
+            
+                    <input type="radio" name="q7" value="a">a. Blanka<br>
+                    <input type="radio" name="q7" value="b">b. Ken<br>
+                    <input type="radio" name="q7" value="c">c. Dhalism<br>
+                    <input type="radio" name="q7" value="d">d. Ryu<br>
+                </div>
+            </section>
+                
+            <input type="submit" id="submit" value="Submit">  
+        </form>
+
+    </div>
+
+    <div id="results"></div>
+
+</body>
+<footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</footer>
+
+</html>
